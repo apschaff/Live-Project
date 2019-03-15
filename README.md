@@ -51,6 +51,10 @@ For this story the card borders and shading were too thick. I went into the styl
         padding: 50px 50px 35px;
         margin: 20px;
     }
+#### Before:
+![Old Border Image](/images/BorderOld.png)
+#### After:
+![New Border Image](/images/BorderNew.png)
     
 The Admin dropdown functionality on the navbar had been created but not styled. In the stylesheet, I adjusted it's placement to line it up with the other navbar buttons and set the static and hover colors to match the rest of the navbar.
 
@@ -78,7 +82,9 @@ The Admin dropdown functionality on the navbar had been created but not styled. 
         color: #fff;
         background-color: #142953;
     }
-    
-    
+#### Before:
+![Old Admin Image](/images/AdminOld.png)
+#### After:
+![New Admin Image](/images/AdminNew.png)
 
 ###
