@@ -1,0 +1,350 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #BDBDBD;
+    color: #142953;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+a {
+    color: #cc6c00;
+    text-decoration: none;
+}
+
+.navbar-style {
+    background-color: #142953;
+    border-bottom: 0;
+    color: #ff9600;
+}
+
+.navbar-style > a {
+    color: #ff9600;
+}
+/* Style 'card' while using Bootstrap 3 */
+.card {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.summary{
+    max-height: 500px;
+    max-width: 500px;
+}
+
+.JPnavbarStyling {
+    margin: 7.5px -15px;
+}
+
+.JPnavbarInverse {
+    background-color: #142953;
+    border-color: #080808;
+}
+
+.JPnavbarStyling > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+@media (max-width: 767px) {
+    .JPnavbarStyling .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .JPnavbarStyling .open .dropdown-menu > li > a,
+    .JPnavbarStyling .open .dropdown-menu .dropdown-header {
+        padding: 5px 15px 5px 25px;
+    }
+
+    .JPnavbarStyling .open .dropdown-menu > li > a {
+        line-height: 20px;
+    }
+
+    .JPnavbarStyling .open .dropdown-menu > li > a:hover,
+    .JPnavbarStyling .open .dropdown-menu > li > a:focus {
+        background-image: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .JPnavbarStyling {
+        float: left;
+        margin: 0;
+    }
+
+    .JPnavbarStyling > li {
+        float: left;
+    }
+
+    .JPnavbarStyling > li > a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+.JPnavbarStyling > li > .dropdown-menu {
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.navbar-fixed-bottom .JPnavbarStyling > li > .dropdown-menu {
+    margin-bottom: 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.navbar-default .JPnavbarStyling > li > a {
+    color: #777;
+}
+
+.navbar-default .JPnavbarStyling > li > a:hover,
+.navbar-default .JPnavbarStyling > li > a:focus {
+    color: #333;
+    background-color: transparent;
+}
+
+.navbar-default .JPnavbarStyling > .active > a,
+.navbar-default .JPnavbarStyling > .active > a:hover,
+.navbar-default .JPnavbarStyling > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+.navbar-default .JPnavbarStyling > .disabled > a,
+.navbar-default .JPnavbarStyling > .disabled > a:hover,
+.navbar-default .JPnavbarStyling > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+
+.navbar-default .JPnavbarStyling > .open > a,
+.navbar-default .JPnavbarStyling > .open > a:hover,
+.navbar-default .JPnavbarStyling > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+
+@media (max-width: 767px) {
+    .navbar-default .JPnavbarStyling .open .dropdown-menu > li > a {
+        color: #777;
+    }
+
+    .navbar-default .JPnavbarStyling .open .dropdown-menu > li > a:hover,
+    .navbar-default .JPnavbarStyling .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: transparent;
+    }
+
+    .navbar-default .JPnavbarStyling .open .dropdown-menu > .active > a,
+    .navbar-default .JPnavbarStyling .open .dropdown-menu > .active > a:hover,
+    .navbar-default .JPnavbarStyling .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: #e7e7e7;
+    }
+
+    .navbar-default .JPnavbarStyling .open .dropdown-menu > .disabled > a,
+    .navbar-default .JPnavbarStyling .open .dropdown-menu > .disabled > a:hover,
+    .navbar-default .JPnavbarStyling .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+
+.JPnavbarInverse .JPnavbarStyling > li > a {
+    color: #ff9600;
+}
+
+.JPnavbarInverse .JPnavbarStyling > li > a:hover,
+.JPnavbarInverse .JPnavbarStyling > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.JPnavbarInverse .JPnavbarStyling > .active > a,
+.JPnavbarInverse .JPnavbarStyling > .active > a:hover,
+.JPnavbarInverse .JPnavbarStyling > .active > a:focus {
+    color: #fff;
+    background-color: #080808;
+}
+
+.JPnavbarInverse .JPnavbarStyling > .disabled > a,
+.JPnavbarInverse .JPnavbarStyling > .disabled > a:hover,
+.JPnavbarInverse .JPnavbarStyling > .disabled > a:focus {
+    color: #444;
+    background-color: transparent;
+}
+
+.JPnavbarInverse .JPnavbarStyling > .open > a,
+.JPnavbarInverse .JPnavbarStyling > .open > a:hover,
+.JPnavbarInverse .JPnavbarStyling > .open > a:focus {
+    color: #fff;
+    background-color: #080808;
+}
+
+@media (max-width: 767px) {
+    .JPnavbarInverse .JPnavbarStyling .open .dropdown-menu > .dropdown-header {
+        border-color: #080808;
+    }
+
+    .JPnavbarInverse .JPnavbarStyling .open .dropdown-menu .divider {
+        background-color: #080808;
+    }
+
+    .JPnavbarInverse .JPnavbarStyling .open .dropdown-menu > li > a {
+        color: #ff9600;
+    }
+
+    .JPnavbarInverse .JPnavbarStyling .open .dropdown-menu > li > a:hover,
+    .JPnavbarInverse .JPnavbarStyling .open .dropdown-menu > li > a:focus {
+        color: #fff;
+        background-color: transparent;
+    }
+
+    .JPnavbarInverse .JPnavbarStyling .open .dropdown-menu > .active > a,
+    .JPnavbarInverse .JPnavbarStyling .open .dropdown-menu > .active > a:hover,
+    .JPnavbarInverse .JPnavbarStyling .open .dropdown-menu > .active > a:focus {
+        color: #fff;
+        background-color: #080808;
+    }
+
+    .JPnavbarInverse .JPnavbarStyling .open .dropdown-menu > .disabled > a,
+    .JPnavbarInverse .JPnavbarStyling .open .dropdown-menu > .disabled > a:hover,
+    .JPnavbarInverse .JPnavbarStyling .open .dropdown-menu > .disabled > a:focus {
+        color: #444;
+        background-color: transparent;
+    }
+}
+
+.JPnavbarInverse .navbar-brand {
+    color: #ff9600;
+}
+
+.JPnavbarInverse .navbar-brand:hover,
+.JPnavbarInverse .navbar-brand:focus {
+    color: #fff;
+    background-color: transparent;
+}
+
+.JPnavbarInverse .navbar-text {
+    color: #ff9600;
+}
+
+
+.JPnavbarInverse .navbar-toggle {
+    border-color: #333;
+}
+
+.JPnavbarInverse .navbar-toggle:hover,
+.JPnavbarInverse .navbar-toggle:focus {
+    background-color: #333;
+}
+
+.JPnavbarInverse .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.jpnavbarinverse .jpnavbarstyling .btn:hover {
+    color: #fff;
+}
+
+.jpnavbarinverse .jpnavbarstyling .btn {
+    margin-top: 8px;
+    background-color: #142953;
+}
+
+.jpnavbarinverse .jpnavbarstyling .dropdown-menu {
+    background-color: #142953;
+}
+
+.jpnavbarinverse .jpnavbarstyling .dropdown-menu > li > a {
+    color: #ff9600;
+    background-color: #142953;
+}
+
+.JPnavbarInverse .JPnavbarStyling .dropdown-menu > li > a:hover {
+    color: #fff;
+    background-color: #142953;
+}
+
+.JPnavbarInverse .navbar-collapse,
+.JPnavbarInverse .navbar-form {
+    border-color: #142953;
+    background-color: #142953;
+}
+
+
+.JPnavbarInverse .navbar-link {
+    color: #ff9600;
+}
+
+.JPnavbarInverse .navbar-link:hover {
+    color: #fff;
+}
+
+.JPnavbarInverse .btn-link {
+    color: #ff9600;
+}
+
+.JPnavbarInverse .btn-link:hover,
+.JPnavbarInverse .btn-link:focus {
+    color: #fff;
+}
+
+.JPnavbarInverse .btn-link[disabled]:hover,
+fieldset[disabled] .JPnavbarInverse .btn-link:hover,
+.JPnavbarInverse .btn-link[disabled]:focus,
+fieldset[disabled] .JPnavbarInverse .btn-link:focus {
+    color: #444;
+}
+.bulletin-container {
+    background-color: #1a2b51;
+    border: 2px solid #ff9c00;
+    box-shadow: 3px 3px 2px #222;
+    color: #ff9c00;
+    padding: 50px 50px 35px;
+    margin: 20px;
+}
+
+.bulletin-body {
+    background-color: white;
+    border: 2px solid #ff9c00;
+    color: #1a2b51;
+    padding: 10px;
+}
+
+/*body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #ffd59a;
+}*/
